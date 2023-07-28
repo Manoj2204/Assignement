@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.priceComparator.testscript.PriceComparatorAssignment">
+      <class name="com.priceComparator.testscript.PriceComparator">
         <methods>
-          <include name="testPriceComparator"/>
+          <include name="configBeforeMethod"/>
+          <include name="testDemo"/>
+          <include name="configAfterMethod"/>
         </methods>
-      </class> <!-- com.priceComparator.testscript.PriceComparatorAssignment -->
+      </class> <!-- com.priceComparator.testscript.PriceComparator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
